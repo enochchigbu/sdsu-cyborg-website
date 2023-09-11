@@ -1,3 +1,7 @@
+/*
+    Template stylesheet if one wants to create 
+*/
+
 body {
     background-color: #000000;
     color: white;
@@ -6,17 +10,6 @@ body {
     flex-direction:column;
     min-height: 100vh;
     overflow: scroll; /* Hide any content that overflows the viewport */
-}
-
-img {
-    max-width: 100%;
-    align-items: center;
-}
-
-p {
-    font-size: 20px;
-    margin-top: 10px; /* Adjust this value to control the spacing */
-    text-align: center; /* Center align the text */
 }
 
 /* Beginning of styles for the header/nav bar */
@@ -79,19 +72,7 @@ p {
 }
 /* End of styles for the nav bar */
 
-/* Beginning of styles for the main section */
-.main-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
-.main-header {
-    font-size: 70px;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-}
-/* End of styles for the main section */
 
 /* Beginning of styles for footer */
 .footer-container {
@@ -191,3 +172,4 @@ background: #000000;
 border-color: #125688;
 }
 /* End of styles for footer */
+

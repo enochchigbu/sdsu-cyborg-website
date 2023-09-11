@@ -8,17 +8,6 @@ body {
     overflow: scroll; /* Hide any content that overflows the viewport */
 }
 
-img {
-    max-width: 100%;
-    align-items: center;
-}
-
-p {
-    font-size: 20px;
-    margin-top: 10px; /* Adjust this value to control the spacing */
-    text-align: center; /* Center align the text */
-}
-
 /* Beginning of styles for the header/nav bar */
 .header-container{
     display: flex;
@@ -28,7 +17,6 @@ p {
 }
 
 .header-logo {
-    color: white;
     padding-left: 60px;
     text-align: left;
     flex: 1;
@@ -79,19 +67,7 @@ p {
 }
 /* End of styles for the nav bar */
 
-/* Beginning of styles for the main section */
-.main-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
-.main-header {
-    font-size: 70px;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-}
-/* End of styles for the main section */
 
 /* Beginning of styles for footer */
 .footer-container {
@@ -191,3 +167,5 @@ background: #000000;
 border-color: #125688;
 }
 /* End of styles for footer */
+
+
