@@ -67,7 +67,48 @@ body {
 }
 /* End of styles for the nav bar */
 
+.intro-container {
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
+.grid-container {
+    justify-content: center;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 20px;
+}
+
+.grid-item {
+    border: black;
+    border-radius: 2fr;
+    text-align: center;
+}
+
+.exec-portrait {
+    max-width: 35%;
+    border-radius: 40px;
+    height: auto;
+    padding: 20px;
+}
+
+.exec-name{
+    color: white;
+    text-decoration: none;
+}
+
+.exec-name:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.exec-name:hover {
+    color: grey;
+}
 
 /* Beginning of styles for footer */
 .footer-container {
