@@ -23,7 +23,8 @@ body {
 }
 
 .header-logo > a > img {
-    max-width: 30%;
+    width: 150px;
+    height: auto;
 }
 
 .header-logo:visited {
