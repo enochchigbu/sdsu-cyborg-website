@@ -9,10 +9,6 @@ body {
     margin: 0;
 }
 
-img {
-    max-width: 100%;
-    align-items: center;
-}
 /* Beginning of styles for the header/nav bar */
 .header-container{
     display: flex;
@@ -73,19 +69,7 @@ img {
 }
 /* End of styles for the nav bar */
 
-/* Beginning of styles for the main section */
-.main-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
-.main-header {
-    font-size: 70px;
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-}
-/* End of styles for the main section */
 
 /* Beginning of styles for footer */
 .footer-container {

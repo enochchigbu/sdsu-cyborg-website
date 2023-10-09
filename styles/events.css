@@ -1,15 +1,12 @@
-/*
-    Template stylesheet if one wants to create 
-*/
-
 body {
-    background-color: #000000;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction:column;
     min-height: 100vh;
     overflow: scroll; /* Hide any content that overflows the viewport */
+    margin: 0;
 }
 
 /* Beginning of styles for the header/nav bar */
@@ -17,30 +14,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 
 .header-logo {
-    color: white;
+    flex: 0.5;
     padding-left: 60px;
-    text-align: left;
-    flex: 1;
-    font-size: 30px;
-    text-decoration: none;
+}
+
+.header-logo > a > img {
+    max-width: 30%;
 }
 
 .header-logo:visited {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .nav-container{
-    justify-content: center;
     flex: 1;
-    padding:20px
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
 }
 
-.nav-selector  {
+.nav-selector {
     display: inline-block;
     padding-left: 25px;
     padding-right: 25px;
@@ -48,7 +45,7 @@ body {
 
 .nav-label {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 25px;
 }
 
