@@ -3,7 +3,7 @@ body {
     color: black;
     font-family: Arial, sans-serif;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     min-height: 100vh;
     overflow: scroll; /* Hide any content that overflows the viewport */
     margin: 0;
@@ -13,7 +13,8 @@ body {
 .header-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
+    border-bottom: 2px solid black;
 }
 
 .header-logo {
@@ -98,9 +99,9 @@ body {
 }
 
 .exec-portrait {
-    width: 200px;
-    height: auto;
-    ;
+    width: auto;
+    height: 350px;
+    border-radius: 10px;
 }
 
 .exec-name{
