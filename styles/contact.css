@@ -1,10 +1,7 @@
-/*
-    Template stylesheet if one wants to create 
-*/
 body {
     background-color: white;
     color: black;
-    font-family: Arial, sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
     display: flex;
     flex-direction:column;
     min-height: 100vh;
