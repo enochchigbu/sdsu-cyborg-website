@@ -81,6 +81,10 @@ body {
     flex-direction: column;
 }
 
+.events-container {
+    text-align: center;
+}
+
 /* End of styles for main container */
 
 /* Beginning of styles for footer */
