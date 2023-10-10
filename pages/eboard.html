@@ -10,6 +10,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" 
     integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous">
     </script>
+    <script src="../scripts/index.js"></script>
 </head>
 <body>
     <header class="header-container">
@@ -43,7 +44,36 @@
                 </div>
             </div>
         </nav>
+        <button id="sidebar-open-button" class="sidebar-open-button" 
+            onclick="sidebar_open()">Menu
+        </button>
     </header>
+
+    <nav class = "sidebar-nav-container">
+        <div id="sidebar" class="sidebar-nav-selector">
+            <button id="sidebar-close-button" class="sidebar-close-button" 
+                onclick="sidebar_close()"> Close &times;
+            </button>
+            <h3>About Us</h3>
+            <ul>
+                <a href="eboard.html">E-Board</a><br>
+                <a href="mission.html">Mission Statement</a>
+            </ul>
+            <h3>Students</h3>
+            <ul>
+                <a href="signup.html">Sign Up</a>
+            </ul>
+            <h3>Events</h3>
+            <ul>
+                <a href="events.html">Events</a>
+            </ul>
+            <h3>Contact Us</h3>
+            <ul>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </div>
+    </nav>
+
     <main>
         <div class="intro-container">
             <h1>Executive Board Members</h1>

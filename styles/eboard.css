@@ -18,7 +18,7 @@ body {
 }
 
 .header-logo {
-    flex: 0.5;
+    flex: 0.3;
     padding-left: 60px;
 }
 
@@ -38,6 +38,52 @@ body {
     padding: 20px;
     justify-content: flex-end;
 }
+
+.sidebar-open-button {
+    display: none;
+}
+
+.sidebar-close-button {
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+
+.sidebar-close-button:hover {
+    opacity: 50%;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.sidebar-nav-selector {
+    display: none;
+    justify-content: flex-end;
+    padding-right: 60px;
+    flex: 1;
+}
+
+.sidebar-nav-selector > ul {
+    padding-left: 120px;
+}
+
+.sidebar-nav-selector > h3 {
+    padding-left: 60px;
+}
+
+@media (max-width: 1000px) {
+    .nav-container{
+        display: none;
+    }
+    .header-logo {
+        flex: 1;
+        padding-left: 60px;
+    }
+    .sidebar-open-button{
+        display: block;
+        margin-right: 60px;
+    }
+}
+
 
 .nav-selector {
     display: inline-block;
