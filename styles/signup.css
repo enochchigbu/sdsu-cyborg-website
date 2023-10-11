@@ -128,6 +128,23 @@ body {
 
 /* End of styles for main container */
 
+.join-form-webpage {
+    display: block;
+}
+
+.join-form-mobile {
+    display: none;
+}
+
+@media (max-width: 768px){
+    .join-form-webpage{
+        display: none;
+    }
+    .join-form-mobile{
+        display: block;
+    }
+}
+
 /* Beginning of styles for footer */
 .footer-container {
     background-color: rgb(6, 6, 6);

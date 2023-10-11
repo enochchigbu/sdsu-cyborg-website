@@ -131,6 +131,24 @@ body {
     text-align: center;
 }
 
+.calendar-mobile {
+    display: none;
+}
+
+.calendar-web {
+    display: block;
+}
+
+@media (max-width: 768px){
+    .calendar-mobile {
+        display: block;
+    }
+    
+    .calendar-web {
+        display: none;
+    }    
+}
+
 /* End of styles for main container */
 
 /* Beginning of styles for footer */
