@@ -3,10 +3,29 @@ body {
     color: black;
     font-family: 'IBM Plex Mono', monospace;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     min-height: 100vh;
     overflow: scroll; /* Hide any content that overflows the viewport */
     margin: 0;
+}
+
+sub {
+    font-size: 10px;
+    color: grey;
+}
+
+input {
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 5px;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+label {
+    padding-bottom: 5px;
 }
 
 /* Beginning of styles for the header/nav bar */
@@ -125,6 +144,60 @@ body {
     min-height: 80vh;
     flex-direction: column;
 }
+
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.contact-form-container > label{
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+
+.name-form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+.name-form-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.name-form-container > div:nth-child(1) {
+    width: 96%;
+}
+
+.email-address-input {
+
+}
+
+.message-input {
+    height: 100px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.submit-form-btn {
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    border: none;
+}
+
+.submit-form-btn:hover {
+    opacity: 50%;
+    transition: 0.3s;
+}
+
 
 /* End of styles for main container */
 
