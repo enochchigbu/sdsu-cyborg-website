@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CyborgSDSU</title>
-    <link rel="stylesheet" href="../styles/home.css"> 
+    <link rel="stylesheet" href="../styles/contact.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono">
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" 
@@ -12,7 +12,6 @@
     </script>
     <script src="../scripts/index.js"></script>
 </head>
-
 <body>
     <header class="header-container">
         <div class="header-logo">
@@ -74,21 +73,35 @@
             </ul>
         </div>
     </nav>
-    
+
     <main class="main-container">
-        <div>
-            <img src="../images/HOME-banner-01.jpg" alt="Picture of SDSU Hepner Hall">
-            <h2 class="main-header">Welcome to CybOrg</h2>
-            <p class="main-footer">Lorem ipsum dolor sit amet. 
-                Et tempora consectetur et culpa vero vel placeat Quis. 
-                Est praesentium dolore eum animi vero aut aperiam officia qui error doloribus. 
-                Et magnam corrupti est dicta magnam ut esse excepturi aut quod quia in velit 
-                quas eum dolore ullam ex autem nihil? Et inventore modi et eaque harum aut 
-                maxime voluptatem.
-            </p>
-        </div>
+        <h1> Contact </h1>
+        <form class="contact-form-container">
+            <h4>Contact us with the form below. We will get back to you soon.</h4>
+            <div class="name-form-container">
+                <div>
+                    <label for="firstName">First Name <sub>(required)</sub></label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="lastName">Last Name <sub>(required)</sub></label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <label for="emailAddress">Email Address <sub>(required)</sub></label>
+            <input class="email-address-input" type="email">
+
+            <label for="subject">Subject <sub>(required)</sub></label>
+            <input type="text">
+
+            <label for="message">Message <sub>(required)</sub></label>
+            <textarea class="message-input" type="text"></textarea>
+
+            <button class="submit-form-btn"> Submit </button>
+        </form>
     </main>
-    
+
     <footer class="footer-container">
         <div class="footer-text">
             <text>Contact us!</text>

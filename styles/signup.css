@@ -9,10 +9,6 @@ body {
     margin: 0;
 }
 
-img {
-    max-width: 100%;
-    align-items: center;
-}
 /* Beginning of styles for the header/nav bar */
 .header-container{
     display: flex;
@@ -88,6 +84,7 @@ img {
     }
 }
 
+
 .nav-selector {
     display: inline-block;
     padding-left: 25px;
@@ -120,18 +117,33 @@ img {
 }
 /* End of styles for the nav bar */
 
-/* Beginning of styles for the main section */
+/* Beginning of styles for main container */
+
 .main-container {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    min-height: 80vh;
+    flex-direction: column;
 }
 
-.main-header {
-    font-size: 70px;
-    text-align: center;
+/* End of styles for main container */
+
+.join-form-webpage {
+    display: block;
 }
-/* End of styles for the main section */
+
+.join-form-mobile {
+    display: none;
+}
+
+@media (max-width: 768px){
+    .join-form-webpage{
+        display: none;
+    }
+    .join-form-mobile{
+        display: block;
+    }
+}
 
 /* Beginning of styles for footer */
 .footer-container {

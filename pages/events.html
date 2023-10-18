@@ -1,10 +1,16 @@
+<!-- A Template page if you want to make a new webpage
+    - Comes with header and footer already added and working
+
+    - For styles refer to template.css
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CyborgSDSU</title>
-    <link rel="stylesheet" href="../styles/home.css"> 
+    <link rel="stylesheet" href="../styles/events.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono">
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" 
@@ -12,7 +18,6 @@
     </script>
     <script src="../scripts/index.js"></script>
 </head>
-
 <body>
     <header class="header-container">
         <div class="header-logo">
@@ -74,21 +79,20 @@
             </ul>
         </div>
     </nav>
-    
+
     <main class="main-container">
-        <div>
-            <img src="../images/HOME-banner-01.jpg" alt="Picture of SDSU Hepner Hall">
-            <h2 class="main-header">Welcome to CybOrg</h2>
-            <p class="main-footer">Lorem ipsum dolor sit amet. 
-                Et tempora consectetur et culpa vero vel placeat Quis. 
-                Est praesentium dolore eum animi vero aut aperiam officia qui error doloribus. 
-                Et magnam corrupti est dicta magnam ut esse excepturi aut quod quia in velit 
-                quas eum dolore ullam ex autem nihil? Et inventore modi et eaque harum aut 
-                maxime voluptatem.
-            </p>
+        <h1 class="events-header"> Events </h1>
+        <div class="events-container">
+            <h2>Weekly Meetings at:</h2>  
+            <div class="calendar-container">
+                <iframe class="calendar-web" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2/Los_Angeles&src=bHVjYWNhcGk1NUBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=NTgwYjM3ZGNjYzcyZTljZWE0Mzk1YjUwNmNjNTk4OTRjM2UxNTE0ODcxZDk0M2M5OGMyNWVkYjJjM2U5YzExZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%2333B679&color=%23B39DDB&color=%230B8043" 
+                style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <iframe class="calendar-mobile" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2/Los_Angeles&src=bHVjYWNhcGk1NUBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=NTgwYjM3ZGNjYzcyZTljZWE0Mzk1YjUwNmNjNTk4OTRjM2UxNTE0ODcxZDk0M2M5OGMyNWVkYjJjM2U5YzExZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%2333B679&color=%23B39DDB&color=%230B8043" 
+                style="border:solid 1px #777" width="400" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>     
         </div>
     </main>
-    
+
     <footer class="footer-container">
         <div class="footer-text">
             <text>Contact us!</text>
