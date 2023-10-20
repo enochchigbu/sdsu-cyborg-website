@@ -41,12 +41,17 @@ body {
 
 .sidebar-open-button {
     display: none;
+    font-family: 'IBM Plex Mono', monospace;
+    border: 2px black solid;
+    width: 75px;
 }
+
 
 .sidebar-close-button {
     width: 100%;
     height: 30px;
     border: none;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .sidebar-close-button:hover {
@@ -60,6 +65,7 @@ body {
     justify-content: flex-end;
     padding-right: 60px;
     flex: 1;
+    border-bottom: 2px solid black;
 }
 
 .sidebar-nav-selector > ul {
@@ -123,12 +129,19 @@ body {
 .main-container {
     display: flex;
     align-items: center;
+    text-align: center;
     min-height: 80vh;
     flex-direction: column;
 }
 
 .events-container {
     text-align: center;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .calendar-mobile {
@@ -141,7 +154,8 @@ body {
 
 @media (max-width: 768px){
     .calendar-mobile {
-        display: block;
+        display: flex;
+        justify-content: center;
     }
     
     .calendar-web {
