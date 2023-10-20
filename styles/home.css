@@ -64,6 +64,7 @@ img {
     justify-content: flex-end;
     padding-right: 60px;
     flex: 1;
+    border-bottom: 2px solid black;
 }
 
 .sidebar-nav-selector > ul {
@@ -130,6 +131,10 @@ img {
 .main-header {
     font-size: 70px;
     text-align: center;
+}
+.main-footer {
+    padding-left: 20px;
+    padding-right: 10px;
 }
 /* End of styles for the main section */
 

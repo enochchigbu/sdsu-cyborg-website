@@ -60,6 +60,7 @@ body {
     justify-content: flex-end;
     padding-right: 60px;
     flex: 1;
+    border-bottom: 2px solid black;
 }
 
 .sidebar-nav-selector > ul {
