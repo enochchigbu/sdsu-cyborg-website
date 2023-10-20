@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction:column;
     min-height: 100vh;
-    text-align: center;
     overflow: scroll; /* Hide any content that overflows the viewport */
     margin: 0;
 }
