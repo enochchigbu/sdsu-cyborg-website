@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    text-align: center;
     overflow: scroll; /* Hide any content that overflows the viewport */
     margin: 0;
 }
@@ -128,6 +127,7 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
+   text-align: center;
 }
 
 .grid-container {
