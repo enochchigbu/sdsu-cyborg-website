@@ -48,6 +48,7 @@ footerTemplate.innerHTML = `
           transition: all 0.5s ease;
           margin-right: 0.25rem;
           margin-bottom: 0.25rem;
+          font-size: 10px;
       }
       
       .rounded-social-buttons .social-button:hover,
@@ -99,16 +100,21 @@ footerTemplate.innerHTML = `
           border-color: #125688;
       }
     </style>
-  
+    
+    <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" 
+                integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" 
+                crossorigin="anonymous">
+    </script>
+    
    <footer class="footer-container">
         <div class="footer-text">
             <p>Contact us!</p>
             <p>Please don't hesitate to reach out at <strong>cyborgsdsu@gmail.com</strong></p>
         </div>
         <div class="rounded-social-buttons">
-            <a class="social-button twitter" href="https://discord.gg/xFaME6Yv3V" target="_blank"><i class="fab fa-discord"></i></a>
-            <a class="social-button linkedin" href="https://www.linkedin.com/company/cyborg-at-sdsu" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a class="social-button instagram" href="https://www.instagram.com/cyborgsdsu" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="social-button twitter" href="https://discord.gg/xFaME6Yv3V" target="_blank"> Discord <i class="fab fa-discord"></i></a>
+            <a class="social-button linkedin" href="https://www.linkedin.com/company/cyborg-at-sdsu" target="_blank"> LinkedIn <i class="fab fa-linkedin"></i></a>
+            <a class="social-button instagram" href="https://www.instagram.com/cyborgsdsu" target="_blank"> Instagram <i class="fab fa-instagram"></i></a>
         </div>
     </footer>
 `;
