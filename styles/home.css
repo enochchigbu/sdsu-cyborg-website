@@ -14,7 +14,8 @@ img {
     align-items: center;
 }
 /* Beginning of styles for the header/nav bar */
-.header-container{
+
+/* .header-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,7 +123,7 @@ img {
     text-decoration: none;
     display: block;
     text-align: left;
-}
+} */
 /* End of styles for the nav bar */
 
 /* Beginning of styles for the main section */

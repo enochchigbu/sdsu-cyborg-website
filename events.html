@@ -16,74 +16,15 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" 
     integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous">
     </script>
-    <script src="scripts/index.js"></script>
 </head>
 <body>
-    <header class="header-container">
-        <div class="header-logo">
-            <a href="home.html"><img src="images/logo.jpg"></a>
-        </div>
-        <nav class = "nav-container">
-            <div class="nav-selector">
-                <text class="nav-label">About Us</text>
-                <div class="dropdown-content">
-                    <a href="eboard.html">E-Board</a>
-                    <a href="mission.html">Mission Statement</a>
-                </div>
-            </div>
-            <div class="nav-selector">
-                <text class="nav-label">Students<text>
-                <div class="dropdown-content">
-                    <a href="signup.html">Sign Up</a>
-                </div>
-            </div>
-            <div class="nav-selector">
-                <text class="nav-label">Events<text>
-                <div class="dropdown-content">
-                    <a href="events.html">Events</a>
-                </div>
-            </div>
-            <div class="nav-selector">
-                <text class="nav-label">Contact Us<text>
-                <div class="dropdown-content">
-                    <a href="contact.html">Contact</a>
-                </div>
-            </div>
-        </nav>
-        <button id="sidebar-open-button" class="sidebar-open-button" 
-            onclick="sidebar_open()">Menu
-        </button>
-    </header>
-
-    <nav class = "sidebar-nav-container">
-        <div id="sidebar" class="sidebar-nav-selector">
-            <button id="sidebar-close-button" class="sidebar-close-button" 
-                onclick="sidebar_close()"> Close &times;
-            </button>
-            <h3>About Us</h3>
-            <ul>
-                <a href="eboard.html">E-Board</a><br>
-                <a href="mission.html">Mission Statement</a>
-            </ul>
-            <h3>Students</h3>
-            <ul>
-                <a href="signup.html">Sign Up</a>
-            </ul>
-            <h3>Events</h3>
-            <ul>
-                <a href="events.html">Events</a>
-            </ul>
-            <h3>Contact Us</h3>
-            <ul>
-                <a href="contact.html">Contact</a>
-            </ul>
-        </div>
-    </nav>
+    <header-component></header-component>
+    <script src="./components/header.js"></script>
 
     <main class="main-container">
         <h1 class="events-header"> Events </h1>
         <div class="events-container">
-            <h2>Weekly Meetings: Wednesday 12:30-1:30 @ <a target="_blank" href="https://map.concept3d.com/?id=801#!ct/68621,62917,40419,15205,68622,54894,71456,73914?m/770010">Aztec Student Union Room 230B</a></h2>  
+            <h2>Weekly Meetings: Wednesday 12:30-1:30 @ <a target="_blank" href="https://map.concept3d.com/?id=801#!ct/68621,62917,40419,15205,68622,54894,71456,73914?m/770010">Aztec Student Union Room 230B, Meztili</a></h2>  
             <div class="calendar-container">
                 <iframe class="calendar-web" src="https://calendar.google.com/calendar/embed?src=85812f3de88826e6b2d004250db1d0c675e27f2ef81d508aa81d1a88ee42ecb2%40group.calendar.google.com&ctz=America%2FLos_Angeles" 
                 style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -93,16 +34,7 @@
         </div>
     </main>
 
-    <footer class="footer-container">
-        <div class="footer-text">
-            <text>Contact us!</text>
-            <p>Please don`t hesitate to reach out at <strong>cyborgsdsu@gmail.com</strong></p>
-        </div>
-        <div class="rounded-social-buttons">
-            <a class="social-button twitter" href="https://discord.gg/xFaME6Yv3V" target="_blank"><i class="fab fa-discord"></i></a>
-            <a class="social-button linkedin" href="https://www.linkedin.com/company/cyborg-at-sdsu" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a class="social-button instagram" href="https://www.instagram.com/cyborgsdsu" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
-    </footer>
+    <footer-component></footer-component>
+    <script src="./components/footer.js"></script>
 </body>
 </html>

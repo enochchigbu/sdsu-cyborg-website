@@ -1,17 +1,13 @@
 SDSU CybOrg Website
 
-Hello, this is the source code for the SDSU CybOrg Website
+President: Enoch Chigbu
 
+Technical Officer: Joshua Oloaye
 
-President: Kazem Sharwa
+Vice President: Carter Holm
 
-Vice President: Luca Capirossi
-
-Treasurer: Enoch Chigbu
-
+Treasurer: Espirit Nguyen
 
 Linkedin: https://www.linkedin.com/company/cyborg-at-sdsu
 
 Instagram: https://www.instagram.com/cyborgsdsu
-
-Slack: 
