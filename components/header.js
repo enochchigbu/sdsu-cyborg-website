@@ -114,7 +114,7 @@ headerTemplate.innerHTML = `
 
     <header class="header-container">
         <div class="header-logo">
-            <a href="/home.html"><img src="/images/logo.jpg"></a>
+            <a href="/home.html"><img src="../images/Cyborg_logo.png"></a>
         </div>
         <nav class = "nav-container">
             <div class="nav-selector">
