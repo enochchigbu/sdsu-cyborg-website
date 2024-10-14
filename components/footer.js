@@ -11,110 +11,77 @@ footerTemplate.innerHTML = `
         padding: 20px;
         background-color: #15191a;
       }
-    
+
       .footer-text {
           color: white;
       }
-      
+
       .footer-text h3 {
           font-size: 25px; /* Adjust the font size as needed */
           font-weight: bold;
       }
-      
-      .svg-inline--fa {
-          vertical-align: -0.2em;
-      }
-      
+
       .rounded-social-buttons {
           text-align: center;
           padding: 30px;
       }
-      
+
       .rounded-social-buttons .social-button {
           display: inline-block;
           position: relative;
           cursor: pointer;
-          width: 3.125rem;
-          height: 3.125rem;
+          width: 50px;
+          height: 50px;
           border: 0.125rem solid transparent;
-          padding: 0;
           text-decoration: none;
           text-align: center;
-          color: #fefefe;
-          font-size: 1.5625rem;
-          font-weight: normal;
-          line-height: 2em;
-          border-radius: 1.6875rem;
-          transition: all 0.5s ease;
+          border-radius: 50%;
           margin-right: 0.25rem;
           margin-bottom: 0.25rem;
-          font-size: 10px;
+          transition: all 0.5s ease;
+          background: #ffffff; /* Ensure a background is applied */
       }
-      
+
+      .rounded-social-buttons .social-button img {
+          width: 60%;  /* Image fits within the rounded button */
+          height: 60%; /* Maintain the aspect ratio */
+          border-radius: 30%; /* Circular effect */
+          margin-top: 20%; /* Centers the image */
+      }
+
       .rounded-social-buttons .social-button:hover,
       .rounded-social-buttons .social-button:focus {
-          -webkit-transform: rotate(360deg);
-          -ms-transform: rotate(360deg);
           transform: rotate(360deg);
       }
-      
-      .rounded-social-buttons 
-      .fa-slack,
-      .fa-linkedin,
-      .fa-instagram {
-          font-size: 30px;
-      }
-      
-      
+
       .rounded-social-buttons .social-button.twitter {
           background: #55acee;
       }
-      
-      .rounded-social-buttons .social-button.twitter:hover,
-      .rounded-social-buttons .social-button.twitter:focus {
-          color: #55acee;
-          background: #000000;
-          border-color: #55acee;
-      }
-      
+
       .rounded-social-buttons .social-button.linkedin {
           background: #007bb5;
       }
-      
-      .rounded-social-buttons .social-button.linkedin:hover,
-      .rounded-social-buttons .social-button.linkedin:focus {
-          color: #007bb5;
-          background: #000000;
-          border-color: #007bb5;
-      }
-      
-      
+
       .rounded-social-buttons .social-button.instagram {
           background: #125688;
       }
-      
-      .rounded-social-buttons .social-button.instagram:hover,
-      .rounded-social-buttons .social-button.instagram:focus {
-          color: #125688;
-          background: #000000;
-          border-color: #125688;
-      }
     </style>
     
-    <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" 
-                integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" 
-                crossorigin="anonymous">
-    </script>
-    
-   <footer class="footer-container">
+    <footer class="footer-container">
         <div class="footer-text">
             <p>Contact us!</p>
             <p>Please don't hesitate to reach out at <strong>cyborgsdsu@gmail.com</strong></p>
         </div>
         <div class="rounded-social-buttons">
-            <a class="social-button twitter" href="https://discord.gg/xFaME6Yv3V" target="_blank"> Discord <i class="fab fa-discord"></i></a>
-            <a class="social-button linkedin" href="https://www.linkedin.com/company/cyborg-at-sdsu" target="_blank"> LinkedIn <i class="fab fa-linkedin"></i></a>
-            <a class="social-button instagram" href="https://www.instagram.com/cyborgsdsu" target="_blank"> Instagram <i class="fab fa-instagram"></i></a>
+            <a class="social-button twitter" href="https://discord.gg/xFaME6Yv3V" target="_blank">
+                <img src="../images/discord_logo.png" alt="Discord Logo">
+            </a>
+            <a class="social-button linkedin" href="https://www.linkedin.com/company/cyborg-at-sdsu" target="_blank">
+                <img src="../images/linkedin_logo.png" alt="LinkedIn Logo">
+            </a>
+            <a class="social-button instagram" href="https://www.instagram.com/cyborgsdsu" target="_blank">
+                <img src="../images/Instagram_Glyph_Black.png" alt="Instagram Logo">
+            </a>
         </div>
     </footer>
 `;
