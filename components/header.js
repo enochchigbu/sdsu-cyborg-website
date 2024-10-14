@@ -14,8 +14,10 @@ headerTemplate.innerHTML = `
         }
         
         .header-logo > a > img {
-            width: 150px;
-            height: auto;
+            width: 200px;
+            height: 120px;
+            object-fit: cover;
+
         }
         
         .header-logo:visited {
