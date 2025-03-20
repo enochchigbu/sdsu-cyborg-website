@@ -1,12 +1,12 @@
 SDSU CybOrg Website
 
-President: Enoch Chigbu
+President: Esprit Nguyen
 
 Technical Officer: Joshua Oloaye
 
 Vice President: Carter Holm
 
-Treasurer: Espirit Nguyen
+Treasurer: Rhema Sosimi
 
 Linkedin: https://www.linkedin.com/company/cyborg-at-sdsu
 
